@@ -1,0 +1,56 @@
+@charset "UTM-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --fontInter: 'Inter';
+    --fontPoppins: 'Poppins';
+    --fontNoto: 'Noto Sans';
+}
+
+
+body, html{
+    text-align: center;
+}
+
+.counter{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button{
+    position: absolute;
+    margin-top:80px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: gray;
+    cursor: pointer;
+}
+.counter_count{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter_minus{
+    margin-left: -100px;
+}
+.counter_plus{
+    margin-left: 100px;
+}
